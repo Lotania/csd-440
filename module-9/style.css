@@ -1,0 +1,24 @@
+nav ul {
+  list-style-type: none; /* Removes bullet points */
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #109442;
+}
+
+nav li {
+  float: left; /* Aligns items horizontally */
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+nav li a:hover {
+  background-color: #111;
+}
